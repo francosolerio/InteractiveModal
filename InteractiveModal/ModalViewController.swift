@@ -20,9 +20,9 @@ class ModalViewController: UIViewController {
 
         let percentThreshold:CGFloat = 0.3
 
-        // convert y-position to downward pull progress (percentage)
+        // convert y-position to downward pull progress (percentage)  
         let translation = sender.translation(in: view)
-        let verticalMovement = translation.y / view.bounds.height
+        let verticalMovement = (translation.y + 35) / view.bounds.height
         let downwardMovement = fmaxf(Float(verticalMovement), 0.0)
         let downwardMovementPercent = fminf(downwardMovement, 1.0)
         let progress = CGFloat(downwardMovementPercent)
