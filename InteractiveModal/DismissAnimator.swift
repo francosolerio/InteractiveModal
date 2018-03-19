@@ -30,7 +30,7 @@ extension DismissAnimator : UIViewControllerAnimatedTransitioning {
         let bottomLeftCorner = CGPoint(x: 0, y: screenBounds.height)
         let finalFrame = CGRect(origin: bottomLeftCorner, size: screenBounds.size)
         
-        UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: UIViewAnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: transitionDuration(using: transitionContext), animations: {
                 fromVC.view.frame = finalFrame
             },
             completion: { _ in

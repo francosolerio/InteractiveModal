@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42F798A0205FCEB2005BDA1A /* Curves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7989F205FCEB2005BDA1A /* Curves.swift */; };
 		FC1737061C3DD1FC00AA7507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1737051C3DD1FC00AA7507 /* AppDelegate.swift */; };
 		FC1737081C3DD1FC00AA7507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1737071C3DD1FC00AA7507 /* ViewController.swift */; };
 		FC17370B1C3DD1FC00AA7507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1737091C3DD1FC00AA7507 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42F7989F205FCEB2005BDA1A /* Curves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curves.swift; sourceTree = "<group>"; };
 		FC1737021C3DD1FC00AA7507 /* InteractiveModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1737051C3DD1FC00AA7507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1737071C3DD1FC00AA7507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				FC1737171C3DD2BB00AA7507 /* ModalViewController.swift */,
 				FCD232A21C4085B70016813F /* DismissAnimator.swift */,
 				FC47B5C21C4D8C40007AB88A /* Interactor.swift */,
+				42F7989F205FCEB2005BDA1A /* Curves.swift */,
 				FC17370C1C3DD1FC00AA7507 /* Assets.xcassets */,
 				FC17370E1C3DD1FC00AA7507 /* LaunchScreen.storyboard */,
 				FC1737111C3DD1FC00AA7507 /* Info.plist */,
@@ -150,6 +153,7 @@
 				FC47B5C31C4D8C40007AB88A /* Interactor.swift in Sources */,
 				FC1737061C3DD1FC00AA7507 /* AppDelegate.swift in Sources */,
 				FCD232A31C4085B70016813F /* DismissAnimator.swift in Sources */,
+				42F798A0205FCEB2005BDA1A /* Curves.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
